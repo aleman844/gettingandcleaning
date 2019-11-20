@@ -62,8 +62,7 @@ library(data.table)
     dt <- data.table(copy(df_t))
     dt[,c("activities"):=NULL]
     dt_f <- dt[, lapply(.SD, mean, na.rm=TRUE), by=activityid ]
-    
-    #print(head(dt_f))
+    #Writing the tidy data
     write.table(df_t,file="dt.txt" ,row.names = FALSE)
     
     
