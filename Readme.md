@@ -1,10 +1,11 @@
-#Getting and cleaning data final proyect
+# Getting and cleaning data final project
+This project its about tidy data, We have to combine multiples files and then clean the variables names and make some calcs.
 
-##About the data
+## About the data
 The features selected for this database come from the one accelerometer and 
 gyroscope 3-axial this values was captured to 50hz
 
-##Variable names
+## Variable names
 The names of the variables is structured in a hierarquical shape, in six levels so:
 
 1. time or freq: this indicate that the value it is in times values in seconds or frequency in hz
@@ -15,8 +16,8 @@ The names of the variables is structured in a hierarquical shape, in six levels 
 5. mean or stdr: It idicated that this variable is a statistic value
 6. x, y or z: show the axis that it is consider.
 
-##Example:
+## Example:
 the variable time_body_acc_mean_x correpond to time value for the body subject and was taked by acceloremter instrumment and it is a mean of axis x
 
-##How work it
-Clone this repository and run run_analysis.R file in R, then you getting a file dt.txt that cotain the tidy data.
+## How work it
+Clone or download this repository and run the file named run_analysis.R in R, then you getting a file dt.txt that cotain the tidy data.
