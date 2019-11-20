@@ -22,7 +22,7 @@ library(data.table)
     cleanames <- sub("-","",cleanames)
     cleanames <- sub(",","_",cleanames)
     cleanames <- tolower(cleanames)
-    write.csv(cleanames[grep("mean|std",cleanames)], 'names.csv')
+    write.csv(cleanames[grep("mean|std",cleanames)], 'names.csv', row.names = FALSE)
     
     
     #get train data

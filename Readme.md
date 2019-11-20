@@ -9,7 +9,7 @@ In the file named codebook.txt you can find a method to describe each variable a
 
 ## How work it
 Clone or download this repository and run the file named run_analysis.R in R, then you getting a file dt.txt that cotain the tidy data.
-In the file 
+This file generate other dataframe with means of each variable.
 
 ## References
 The original project can be accessed on http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
